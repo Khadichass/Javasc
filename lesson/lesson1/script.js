@@ -46,5 +46,4 @@ console.log(typeof thrdnum);
 // const
 
 const triangle = 30;
-
 console.log(triangle);
