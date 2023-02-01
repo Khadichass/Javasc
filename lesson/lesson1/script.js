@@ -32,3 +32,19 @@ console.log(second);
 
 let all = `${Name} ${width} `;
 console.log(all);
+
+let symbl = Symbol(1234);
+console.log(symbl);
+
+let avarage = BigInt(120938237489427932473285632908420387);
+let num = 120938237489427932473285632908420387n;
+console.log(avarage, num);
+
+let thrdnum = 20;
+console.log(typeof thrdnum);
+
+// const
+
+const triangle = 30;
+
+console.log(triangle);
