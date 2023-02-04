@@ -20,9 +20,9 @@
 // task 2
 
 let num = Number(prompt("Enter a number:"));
-
-if (num % 2) {
-  console.log(0);
-} else {
-  console.log(1);
-}
+console.log(num % 2);
+// if (num % 2) {
+//   console.log(0);
+// } else {
+//   console.log(1);
+// }
