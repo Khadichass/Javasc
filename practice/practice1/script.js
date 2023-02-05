@@ -88,5 +88,26 @@
 // alert(Kv1);
 // alert(Kv2);
 
+// 11-masala
+
 // let a = Number(prompt("a son:"));
+// let b = Number(prompt("b son:"));
+// let c = a + b;
+// let d = a * b;
+
+// alert(c);
+// alert(d);
+// if (a < 0) {
+//   alert(-a);
+// } else if (a > 0) {
+//   alert(a);
+// }
+
+// if (b < 0) {
+//   alert(-b);
+// } else if (b > 0) {
+//   alert(b);
+// }
+
 // alert(Math.abs(a));
+// alert(Math.abs(b));
