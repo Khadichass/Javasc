@@ -114,11 +114,25 @@
 
 // 12-masala
 
-let a = Number(prompt("a :"));
-let b = Number(prompt("b :"));
+// let a = Number(prompt("a :"));
+// let b = Number(prompt("b :"));
 
-let c = (a ** 2 + b ** 2) ** 1 / 2;
-let P = a + b + c;
+// let c = (a ** 2 + b ** 2) ** 1 / 2;
+// let P = a + b + c;
 
-alert(c);
-alert(P);
+// alert(c);
+// alert(P);
+
+// 13-masala
+
+let R1 = Number(prompt("radius 1:"));
+let R2 = Number(prompt("radius 2:"));
+let p = 3.14;
+
+let S1 = p * R1;
+let S2 = p * R2;
+let S3 = p * (R1 - R2);
+
+alert(S1);
+alert(S2);
+alert(S3);
