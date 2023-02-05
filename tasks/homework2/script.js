@@ -6,23 +6,23 @@
 // let A = weight / height ** 2;
 
 // if (A < 18.5) {
-//   console.log(underweight);
+//   console.log("underweight");
 // } else if (18.5 < A < 24.9) {
-//   console.log(normal);
+//   console.log("normal");
 // } else if (25 < A < 29.9) {
-//   console.log(overweight);
+//   console.log("overweight");
 // } else if (30 < A < 34.9) {
-//   console.log(obese);
+//   console.log("obese");
 // } else if (35 < A) {
-//   console.log(extremely_obese);
+//   console.log("extremely_obese");
 // }
 
 // task 2
 
 let num = Number(prompt("Enter a number:"));
-console.log(num % 2);
-// if (num % 2) {
-//   console.log(0);
-// } else {
-//   console.log(1);
-// }
+// console.log(num % 2);
+if (num % 2) {
+  console.log("toq");
+} else {
+  console.log("juft");
+}
