@@ -24,8 +24,26 @@
 
 // let C = A > B;
 
-let A = Number(prompt("A:"));
-let B = Number(prompt("B:"));
+// let A = Number(prompt("A:"));
+// let B = Number(prompt("B:"));
 
-let D = (A - (A % B)) / B;
-alert(D);
+// let D = (A - (A % B)) / B;
+// alert(D);
+
+// 5-masala
+
+// let A = Number(prompt("A:"));
+// let B = Number(prompt("B:"));
+
+// let D = A - (A - (A % B));
+// alert(D);
+
+// 6-masala
+
+// let A = Number(prompt("Enter the number:"));
+// let B = (A % 100) - (A % 10);
+// let C = A % 10;
+// alert(B);
+// alert(C);
+
+// 7-masala
