@@ -125,14 +125,25 @@
 
 // 13-masala
 
-let R1 = Number(prompt("radius 1:"));
-let R2 = Number(prompt("radius 2:"));
+// let R1 = Number(prompt("radius 1:"));
+// let R2 = Number(prompt("radius 2:"));
+// let p = 3.14;
+
+// let S1 = p * R1;
+// let S2 = p * R2;
+// let S3 = p * (R1 - R2);
+
+// alert(S1);
+// alert(S2);
+// alert(S3);
+
+// 14-masala
+
+let R = Number(prompt("radius :"));
 let p = 3.14;
 
-let S1 = p * R1;
-let S2 = p * R2;
-let S3 = p * (R1 - R2);
+let L = 2 * p * R;
+let S = p * R;
 
-alert(S1);
-alert(S2);
-alert(S3);
+alert(L);
+alert(S);
