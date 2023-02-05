@@ -47,3 +47,5 @@
 // alert(C);
 
 // 7-masala
+
+let A = Number(prompt("Enter the number:"));
