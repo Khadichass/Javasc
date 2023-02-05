@@ -111,3 +111,14 @@
 
 // alert(Math.abs(a));
 // alert(Math.abs(b));
+
+// 12-masala
+
+let a = Number(prompt("a :"));
+let b = Number(prompt("b :"));
+
+let c = (a ** 2 + b ** 2) ** 1 / 2;
+let P = a + b + c;
+
+alert(c);
+alert(P);
