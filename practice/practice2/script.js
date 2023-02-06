@@ -40,11 +40,11 @@
 
 // 6-masala
 
-let A = Number(prompt("Enter the number:"));
-let B = ((A % 100) - (A % 10)) / 10;
-let C = A % 10;
-alert(B);
-alert(C);
+// let A = Number(prompt("Enter the number:"));
+// let B = ((A % 100) - (A % 10)) / 10;
+// let C = A % 10;
+// alert(B);
+// alert(C);
 
 // 7-masala
 
