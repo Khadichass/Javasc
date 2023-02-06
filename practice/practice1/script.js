@@ -170,14 +170,62 @@
 
 // 17-masala
 
-let A = Number(prompt("A :"));
-let B = Number(prompt("B :"));
-let C = Number(prompt("C :"));
+// let A = Number(prompt("A :"));
+// let B = Number(prompt("B :"));
+// let C = Number(prompt("C :"));
 
-let AC = A * C;
-let BC = B * C;
-let ABC = A + B + C;
+// let AC = A * C;
+// let BC = B * C;
+// let ABC = A + B + C;
 
-alert(AC);
-alert(BC);
-alert(ABC);
+// alert(AC);
+// alert(BC);
+// alert(ABC);
+
+// 18-masala
+
+// let A = Number(prompt("A :"));
+// let B = Number(prompt("B :"));
+// let C = Number(prompt("C :"));
+
+// let AC = A + C;
+// let BC = B + C;
+// let ABC = AC * BC;
+
+// alert(AC);
+// alert(BC);
+// alert(ABC);
+
+// 19-masala
+
+// 20-masala
+
+// let x1 = Number(prompt("x1 :"));
+// let x2 = Number(prompt("x2 :"));
+// let y1 = Number(prompt("y1 :"));
+// let y2 = Number(prompt("y2 :"));
+
+// let distance = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5;
+
+// alert(distance);
+
+// 21-masala
+
+// let x1 = Number(prompt("x1 :"));
+// let x2 = Number(prompt("x2 :"));
+// let x3 = Number(prompt("x3 :"));
+// let y1 = Number(prompt("y1 :"));
+// let y2 = Number(prompt("y2 :"));
+// let y3 = Number(prompt("y3 :"));
+
+// let a = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5;
+// let b = ((x3 - x1) ** 2 + (y3 - y1) ** 2) ** 0.5;
+// let c = ((x3 - x2) ** 2 + (y3 - y2) ** 2) ** 0.5;
+
+// let p = (a + b + c) / 2;
+// let S = (p * (p - a) * (p - b) * (p - c)) ** 0.5;
+
+// alert(p);
+// alert(S);
+
+// 22-masala
