@@ -347,17 +347,17 @@
 
 // 40-masala
 
-let A1 = Number(prompt("A1 :"));
-let B1 = Number(prompt("B1 :"));
-let C1 = Number(prompt("C1 :"));
-let A2 = Number(prompt("A2 :"));
-let B2 = Number(prompt("B2 :"));
-let C2 = Number(prompt("C2 :"));
+// let A1 = Number(prompt("A1 :"));
+// let B1 = Number(prompt("B1 :"));
+// let C1 = Number(prompt("C1 :"));
+// let A2 = Number(prompt("A2 :"));
+// let B2 = Number(prompt("B2 :"));
+// let C2 = Number(prompt("C2 :"));
 
-let D = A1 * B2 - A2 * B1;
-let x = (C1 * B2 - C2 * B1) / D;
-let y = (A1 * C2 - A2 * C1) / D;
+// let D = A1 * B2 - A2 * B1;
+// let x = (C1 * B2 - C2 * B1) / D;
+// let y = (A1 * C2 - A2 * C1) / D;
 
-alert(D);
-alert(x);
-alert(y);
+// alert(D);
+// alert(x);
+// alert(y);
