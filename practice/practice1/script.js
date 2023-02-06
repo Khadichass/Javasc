@@ -150,11 +150,20 @@
 
 // 15-masala
 
-let S = Number(prompt("S :"));
-let p = 3.14;
+// let S = Number(prompt("S :"));
+// let p = 3.14;
 
-let R = (S / p) ** 1 / 2;
-let d = R * 2;
+// let R = (S / p) ** 1 / 2;
+// let d = R * 2;
 
-alert(R);
-alert(d);
+// alert(R);
+// alert(d);
+
+// 16-masala
+
+let x1 = Number(prompt("x1 :"));
+let x2 = Number(prompt("x2 :"));
+
+let distance = x1 - x2;
+
+alert(Math.abs(distance));
