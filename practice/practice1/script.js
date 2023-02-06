@@ -139,11 +139,22 @@
 
 // 14-masala
 
-let R = Number(prompt("radius :"));
+// let L = Number(prompt("L :"));
+// let p = 3.14;
+
+// let R = (L / 2) * p;
+// let S = p * R;
+
+// alert(R);
+// alert(S);
+
+// 15-masala
+
+let S = Number(prompt("S :"));
 let p = 3.14;
 
-let L = 2 * p * R;
-let S = p * R;
+let R = (S / p) ** 1 / 2;
+let d = R * 2;
 
-alert(L);
-alert(S);
+alert(R);
+alert(d);
