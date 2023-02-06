@@ -301,3 +301,63 @@
 // alert(deg);
 
 // 31-masala
+
+// let Tf = Number(prompt("Tf :"));
+// let Tc = ((Tf - 32) * 5) / 9;
+
+// alert(Tc);
+
+// 32-masala
+
+// let Tc = Number(prompt("Tc :"));
+// let Tf = (Tc * 9) / 5 + 32;
+// alert(Tf);
+
+// 33-masala
+
+// 34-masala
+
+// 35-masala
+
+// 36-masala
+
+// 37-masala
+
+// 38-masala
+
+// let A = Number(prompt("A :"));
+// let B = Number(prompt("B :"));
+
+// let x = -B / A;
+
+// alert(x);
+
+// 39-masala
+
+// let A = Number(prompt("A :"));
+// let B = Number(prompt("B :"));
+// let C = Number(prompt("C :"));
+
+// let D = B ** 2 - 4 * A * C;
+// let x1 = ((-B + D ** 1 / 2) / 2) * A;
+// let x2 = ((-B - D ** 1 / 2) / 2) * A;
+
+// alert(x1);
+// alert(x2);
+
+// 40-masala
+
+let A1 = Number(prompt("A1 :"));
+let B1 = Number(prompt("B1 :"));
+let C1 = Number(prompt("C1 :"));
+let A2 = Number(prompt("A2 :"));
+let B2 = Number(prompt("B2 :"));
+let C2 = Number(prompt("C2 :"));
+
+let D = A1 * B2 - A2 * B1;
+let x = (C1 * B2 - C2 * B1) / D;
+let y = (A1 * C2 - A2 * C1) / D;
+
+alert(D);
+alert(x);
+alert(y);
