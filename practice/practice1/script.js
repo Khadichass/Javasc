@@ -229,3 +229,75 @@
 // alert(S);
 
 // 22-masala
+
+// let A = prompt("A :");
+// let B = prompt("B :");
+
+// alert(B);
+// alert(A);
+
+// 23-masala
+
+// 24-masala
+
+// 25-masala
+
+// let x = Number(prompt("x :"));
+
+// let y = 3 * x ** 5 - 6 * x ** 2 - 7;
+
+// alert(y);
+
+// 26-masala
+
+// let x = Number(prompt("x :"));
+
+// let y = 4 * (x - 3) ** 6 - 7 * (x - 3) ** 3 + 2;
+
+// alert(y);
+
+// 27-masala
+
+// let A = Number(prompt("A :"));
+
+// let A2 = A ** 2;
+// let A4 = A ** 4;
+// let A8 = A ** 8;
+
+// alert(A2);
+// alert(A4);
+// alert(A8);
+
+// 28-masala
+
+// let A = Number(prompt("A :"));
+
+// let A2 = A ** 2;
+// let A3 = A ** 3;
+// let A5 = A ** 5;
+// let A10 = A ** 10;
+// let A15 = A ** 15;
+
+// alert(A2);
+// alert(A3);
+// alert(A5);
+// alert(A10);
+// alert(A15);
+
+// 29-masala
+
+// let a = Number(prompt("a :"));
+// let p = 3.14;
+// let rad = a * (p / 180);
+
+// alert(rad);
+
+// 30-masala
+
+// let a = Number(prompt("a :"));
+// let p = 3.14;
+// let deg = a * (180 / p);
+
+// alert(deg);
+
+// 31-masala
