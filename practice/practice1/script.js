@@ -161,9 +161,15 @@
 
 // 16-masala
 
-let x1 = Number(prompt("x1 :"));
-let x2 = Number(prompt("x2 :"));
+// let x1 = Number(prompt("x1 :"));
+// let x2 = Number(prompt("x2 :"));
 
-let distance = x1 - x2;
+// let distance = x1 - x2;
 
-alert(Math.abs(distance));
+// alert(Math.abs(distance));
+
+// 17-masala
+
+let A = Number(prompt("A :"));
+let B = Number(prompt("B :"));
+let C = Number(prompt("C :"));
