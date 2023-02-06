@@ -173,3 +173,11 @@
 let A = Number(prompt("A :"));
 let B = Number(prompt("B :"));
 let C = Number(prompt("C :"));
+
+let AC = A * C;
+let BC = B * C;
+let ABC = A + B + C;
+
+alert(AC);
+alert(BC);
+alert(ABC);
