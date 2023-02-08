@@ -244,21 +244,50 @@
 
 // 22-masala
 
-let A = prompt("A :");
-let B = prompt("B :");
-let C = A;
+// let A = prompt("A :");
+// let B = prompt("B :");
+// let C = A;
 
-A = B;
-B = C;
-alert(A);
-alert(C);
+// A = B;
+// B = C;
+// alert(A);
+// alert(C);
 
 // 23-masala
 
 // let A = prompt("A :");
 // let B = prompt("B :");
+// let C = prompt("C :");
+
+// A = B;
+
+// let D = C;
+// B = D;
+
+// let E = A;
+// C = A;
+
+// alert(B);
+// alert(C);
+// alert(A);
 
 // 24-masala
+
+// let A = prompt("A :");
+// let B = prompt("B :");
+// let C = prompt("C :");
+
+// A = C;
+
+// let D = B;
+// C = D;
+
+// let E = A;
+// B = E;
+
+// alert(A);
+// alert(C);
+// alert(B);
 
 // 25-masala
 
@@ -334,6 +363,16 @@ alert(C);
 // alert(Tf);
 
 // 33-masala
+
+// let X = Number(prompt(" X kg :"));
+// let A = Number(prompt(" A so'm :"));
+// // let Y = Number(prompt(" Y kg :"));
+
+// let B = A / X;
+// let Y = (X * B) / A;
+
+// alert(B);
+// alert(Y);
 
 // 34-masala
 
