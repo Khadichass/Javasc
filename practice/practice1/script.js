@@ -376,11 +376,43 @@
 
 // 34-masala
 
+// let X = Number(prompt(" candy (kg) :"));
+// let A = Number(prompt(" candy (sum) :"));
+// let Y = Number(prompt(" chocolate (kg) :"));
+// let B = Number(prompt(" chocolate (sum) :"));
+
+// let x = A / X;
+// let y = B / Y;
+
+// let minus = y - x;
+// alert(minus);
+
 // 35-masala
 
+// let V = Number(prompt(" V :"));
+// let U = Number(prompt(" U :"));
+// let T1 = Number(prompt("T1 :"));
+// let T2 = Number(prompt("T2 :"));
+
+// let S = (U + V) * T1 - T2 * U;
+// alert(S);
+
 // 36-masala
+// let V1 = Number(prompt(" V1 :"));
+// let V2 = Number(prompt(" V2 :"));
+// let T = Number(prompt("T :"));
+
+// let S = V1 * T + V2 * T;
+// alert(S);
 
 // 37-masala
+
+// let V1 = Number(prompt(" V1 :"));
+// let V2 = Number(prompt(" V2 :"));
+// let T = Number(prompt("T :"));
+
+// let S = V1 * T - V2 * T;
+// alert(S);
 
 // 38-masala
 
