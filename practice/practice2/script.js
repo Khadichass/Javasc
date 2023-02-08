@@ -49,3 +49,50 @@
 // 7-masala
 
 // let A = Number(prompt("Enter the number:"));
+
+// let B = ((A % 100) - (A % 10)) / 10;
+// let C = A % 10;
+
+// let D = B + C;
+// alert(D);
+
+// 8-masala
+
+// let A = Number(prompt("Enter the number:"));
+// let B = ((A % 100) - (A % 10)) / 10;
+// let C = A % 10;
+
+// B = C;
+// let D = B;
+// C = D;
+// alert(B);
+// alert(C);
+
+// 9-masala
+
+// let A = Number(prompt("Enter the number:"));
+// let B = ((A % 1000) - (A % 100)) / 100;
+
+// alert(B);
+
+// 10-masala
+
+// let A = Number(prompt("Enter the number:"));
+// let B = ((A % 1000) - (A % 100)) / 100;
+// let C = A % 100;
+// let D = ((A % 100) - (C % 10)) / 10;
+// let F = A % 10;
+
+// alert(F);
+// alert(D);
+
+// 11-masala
+
+// let A = Number(prompt("Enter the number:"));
+// let B = ((A % 1000) - (A % 100)) / 100;
+// let C = A % 100;
+// let D = ((A % 100) - (C % 10)) / 10;
+// let F = A % 10;
+
+// let G = B + D + F;
+// alert(G);
