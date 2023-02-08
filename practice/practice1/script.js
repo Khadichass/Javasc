@@ -174,9 +174,9 @@
 // let B = Number(prompt("B :"));
 // let C = Number(prompt("C :"));
 
-// let AC = A * C;
-// let BC = B * C;
-// let ABC = A + B + C;
+// let AC = C - A;
+// let BC = C - B;
+// let ABC = AC + BC;
 
 // alert(AC);
 // alert(BC);
