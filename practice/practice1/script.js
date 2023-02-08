@@ -198,19 +198,19 @@
 
 // 19-masala
 
-let x1 = Number(prompt("x1 :"));
-let x2 = Number(prompt("x2 :"));
-let y1 = Number(prompt("y1 :"));
-let y2 = Number(prompt("y2 :"));
+// let x1 = Number(prompt("x1 :"));
+// let x2 = Number(prompt("x2 :"));
+// let y1 = Number(prompt("y1 :"));
+// let y2 = Number(prompt("y2 :"));
 
-let a = x2 - x1;
-let b = y2 - y1;
+// let a = x2 - x1;
+// let b = y2 - y1;
 
-let S = a * b;
-let P = (a + b) * 2;
+// let S = a * b;
+// let P = (a + b) * 2;
 
-alert(S);
-alert(P);
+// alert(S);
+// alert(P);
 
 // 20-masala
 
@@ -244,11 +244,14 @@ alert(P);
 
 // 22-masala
 
-// let A = prompt("A :");
-// let B = prompt("B :");
+let A = prompt("A :");
+let B = prompt("B :");
 
-// alert(B);
-// alert(A);
+A = B;
+B = A;
+
+alert(A);
+alert(B);
 
 // 23-masala
 
