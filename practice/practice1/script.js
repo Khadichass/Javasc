@@ -246,14 +246,17 @@
 
 let A = prompt("A :");
 let B = prompt("B :");
+let C = A;
 
 A = B;
-B = A;
-
+B = C;
 alert(A);
-alert(B);
+alert(C);
 
 // 23-masala
+
+// let A = prompt("A :");
+// let B = prompt("B :");
 
 // 24-masala
 
