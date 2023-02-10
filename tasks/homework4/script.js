@@ -31,7 +31,7 @@
 
 let a = Number(prompt("Birinchi sonni kirirting :"));
 let b = Number(prompt("Ikkinchi sonni kirirting :"));
-let c = prompt("Qaysi opratorni tanlaysiz :");
+let c = prompt("Qaysi operatorni tanlaysiz :");
 
 let output;
 
