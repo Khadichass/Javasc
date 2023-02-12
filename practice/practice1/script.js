@@ -277,17 +277,17 @@
 // let B = prompt("B :");
 // let C = prompt("C :");
 
-// A = C;
+// let d = A;
+// let e = B;
+// let f = C;
 
-// let D = B;
-// C = D;
-
-// let E = A;
-// B = E;
+// A = f;
+// B = d;
+// C = e;
 
 // alert(A);
-// alert(C);
 // alert(B);
+// alert(C);
 
 // 25-masala
 

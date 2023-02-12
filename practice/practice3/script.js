@@ -90,13 +90,16 @@ if(a<b){
 }*/
 
 //12-MASALA
-/*let a =Number(prompt("Sonni kiriting(A):"));
-let b =Number(prompt("Sonni kiriting(B):"));
-let c=Number(prompt("Sonni kiriting(C):"));
-if(a<b){
+let a = Number(prompt("Sonni kiriting(A):"));
+let b = Number(prompt("Sonni kiriting(B):"));
+let c = Number(prompt("Sonni kiriting(C):"));
+if (a < b && a < c) {
   alert(a);
-}else if(a=b){alert(b)
-}else if(a>b){alert(kichik)}*/
+} else if (a == b && c < a && c < b) {
+  alert(c);
+} else if (a > b) {
+  alert(b);
+}
 
 //13-MASALA
 /*let a =Number(prompt("Sonni kiriting(A):"));
