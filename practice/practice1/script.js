@@ -259,13 +259,13 @@
 // let B = prompt("B :");
 // let C = prompt("C :");
 
-// A = B;
+// let e = A;
+// let f = B;
+// let h = C;
 
-// let D = C;
-// B = D;
-
-// let E = A;
-// C = A;
+// A = f;
+// B = h;
+// C = e;
 
 // alert(B);
 // alert(C);
