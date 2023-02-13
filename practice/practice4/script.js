@@ -339,18 +339,15 @@ let b = Number(
 );
 let output;
 
-switch (a) {
-  case "s":
-    output = `shimoldan  ${b}`;
+switch (b) {
+  case 0:
+    output = `${a} harakatni davom ettir`;
     break;
-  case "j":
-    output = `janubdan ${b} `;
+  case 1:
+    output = `${a} chapga buril`;
     break;
-  case "q":
-    output = `sharqdan ${b}`;
-    break;
-  case "g":
-    output = `g'arbdan ${b}`;
+  case 2:
+    output = `${a} o'ngga buril`;
     break;
 }
 
