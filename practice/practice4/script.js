@@ -328,3 +328,30 @@
 // }
 
 // alert(output);
+
+// 10-masala
+
+let a = prompt("Yo'nalishni tanlang : s-shimol, j-janub, q-sharq, g-g'arb ");
+let b = Number(
+  prompt(
+    "Kamanda turini tanklang: 0-harakatni davom ettir, 1-chapga buril, 2-o'ngga buril"
+  )
+);
+let output;
+
+switch (a) {
+  case "s":
+    output = `shimoldan  ${b}`;
+    break;
+  case "j":
+    output = `janubdan ${b} `;
+    break;
+  case "q":
+    output = `sharqdan ${b}`;
+    break;
+  case "g":
+    output = `g'arbdan ${b}`;
+    break;
+}
+
+alert(output);
