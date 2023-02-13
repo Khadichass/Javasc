@@ -97,17 +97,9 @@
 // let G = B + D + F;
 // alert(G);
 
-//12-MASALA
-/*let a =Number(prompt("raqamlar yigindisi:"));
-let b=(a/100);
-console.log(b);
-let c=(a+b);
-console.log(c);
-let d=(a/10);
-console.log(d);
-let e=((c-d)*10)
-let f=((b+d)*10 + (e/100));
-console.log(f);*/
+//12-masala
+
+let A = Number(prompt("Enter the number :"));
 
 //13-MASALA
 /*let a =Number(prompt("raqamlar yigindisi:"));
@@ -230,32 +222,32 @@ let e=((d-c)*3600);
 alert(e);*/
 
 //24-28-MASALA
-/*let day =Number(prompt("choose the week days:"));
-let output;
-switch (day){
-  case 0:
-    output="Yakshanba"
-    break;
-    case 1:
-      output ="Dushanba"
-      break;
-      case 2:
-        output="Seshanba"
-        break;
-        case 3:
-          output="Chorshanba"
-          break;
-          case 4:
-          output="Payshanba"
-          break;
-          case 5:
-            output="Jum'a"
-            break;
-            case 6:
-              output="Shanba"
-              break;
-}
-alert(${output});*/
+// let day = Number(prompt("choose the week days:"));
+// let output;
+// switch (day) {
+//   case 0:
+//     output = "Yakshanba";
+//     break;
+//   case 1:
+//     output = "Dushanba";
+//     break;
+//   case 2:
+//     output = "Seshanba";
+//     break;
+//   case 3:
+//     output = "Chorshanba";
+//     break;
+//   case 4:
+//     output = "Payshanba";
+//     break;
+//   case 5:
+//     output = "Jum'a";
+//     break;
+//   case 6:
+//     output = "Shanba";
+//     break;
+// }
+// alert(output);
 
 //29-MASALA
 /*let a=Number(prompt("a-tomon"));
