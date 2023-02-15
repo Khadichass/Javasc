@@ -2,9 +2,8 @@
 
 // 1-masala
 
-let k = Number(prompt("Enter the K number :"));
-// let n = Number(prompt("Enter the N number :"))
+// let k = Number(prompt("Enter the K number :"));
 
-for (let i = 1; i > 0; i++) {
-  console.log(k[i]);
-}
+// for (let i = 0; i < 10; i++) {
+//   console.log(k[i]);
+// }
