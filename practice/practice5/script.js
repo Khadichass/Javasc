@@ -41,14 +41,57 @@
 // }
 
 // 6-masala
-let pr = 10;
-let sum = "";
-for (let i = 1.2; i <= 2; i++) {
-  sum = pr * i;
-  console.log(sum);
-}
-// let text = "";
-
-// for (let i = 0; i <  5; i++) {
-//   text += "The number is " + i + "<br>";
+// let pr = 10;
+// let sum = "";
+// for (let i = 1.2; i <= 2; i++) {
+//   sum = pr * i;
+//   console.log(sum);
 // }
+
+// 7-masala
+
+// let sum = "";
+
+// let a = Number(prompt("a:"));
+// let b = Number(prompt("b:"));
+
+// for (let i = a; i <= b; i++) {
+//   sum += i;
+// }
+
+// console.log(sum);
+
+// 8-masala
+// let sum = 1;
+
+// let a = Number(prompt("a:"));
+// let b = Number(prompt("b:"));
+
+// for (let i = a; i <= b; i++) {
+//   sum = sum * i;
+// }
+
+// console.log(sum);
+
+// 9-masala
+
+// let sum = 1;
+
+// let a = Number(prompt("a:"));
+// let b = Number(prompt("b:"));
+
+// for (let i = a; i <= b; i++) {
+//   sum = sum * i ** 2;
+// }
+
+// console.log(sum);
+
+// 10-masala
+
+// let s = 0;
+// let n = Number(prompt("Enter the N number:"));
+// for (let i = 1; i <= n; i++) {
+//   s += 1 / i;
+// }
+
+// console.log(s);
