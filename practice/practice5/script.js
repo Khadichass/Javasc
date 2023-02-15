@@ -5,8 +5,8 @@
 // let k = Number(prompt("Enter the K number :"));
 // let n = Number(prompt("enter the N number :"));
 
-// for (let i = k; i > n; i++) {
-//   console.log(i);
+// for (let i = 1; i <= n; i++) {
+//   console.log(k);
 // }
 
 // 2-masala
@@ -41,12 +41,13 @@
 // }
 
 // 6-masala
-// let pr = 10;
-// let sum = "";
-// for (let i = 1.2; i <= 2; i++) {
-//   sum = pr * i;
-//   console.log(sum);
-// }
+let pr = 10;
+let sum = "";
+for (let i = 12; i <= 20; i++) {
+  if (i % 2) {
+  }
+  console.log(sum);
+}
 
 // 7-masala
 
@@ -95,3 +96,5 @@
 // }
 
 // console.log(s);
+
+// 11-masala
