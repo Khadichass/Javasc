@@ -36,18 +36,17 @@
 // let pr = 10;
 // let sum = "";
 // for (let i = 0.1; i <= 1; ++i) {
-//   sum = pr * i;
+//   sum = (pr * i) / 10;
 //   console.log(sum);
 // }
 
 // 6-masala
-let pr = 10;
-let sum = "";
-for (let i = 12; i <= 20; i++) {
-  if (i % 2) {
-  }
-  console.log(sum);
-}
+// let pr = 10;
+// let sum = "";
+// for (let i = 12; i <= 20; i++) {
+//   sum = (pr * i) / 10;
+//   console.log(sum);
+// }
 
 // 7-masala
 
