@@ -122,8 +122,8 @@
 
 // 8-masala
 
-// let k = Number(prompt("Enter the K number :"));
-// let r = Number(prompt("Enter the R number (1<=R<=9)"));
+// let k = prompt("Enter the K number :");
+// let r = prompt("Enter the R number (1<=R<=9)");
 
 // function AddLeftDigit(k, r) {
 //   if (1 <= r <= 9) {
@@ -135,3 +135,5 @@
 // }
 
 // AddLeftDigit(k, r);
+
+// oxirigacha ishlanmadi
