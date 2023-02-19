@@ -102,23 +102,23 @@
 
 // 7-masala
 
-// let A = prompt("A :");
-// let B = prompt("B :");
-// let C = prompt("C :");
+let A = prompt("A :");
+let B = prompt("B :");
+let C = prompt("C :");
 
-// let e = A;
-// let f = B;
-// let h = C;
-// function numb(A, B, C) {
-//   A = f;
-//   B = h;
-//   C = e;
+let e = A;
+let f = B;
+let h = C;
+function numb(A, B, C) {
+  A = f;
+  B = h;
+  C = e;
 
-//   console.log(B, C, A);
-//   return B, C, A;
-// }
+  console.log(B, A, C);
+  return B, A, C;
+}
 
-// numb(A, B, C);
+numb(A, B, C);
 
 // 8-masala
 
