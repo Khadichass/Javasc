@@ -9,3 +9,31 @@ let closeBtn = document.getElementById("close__btn");
 
 // mainTitle.textContent =
 //   "Lorem ipsum dolor, sit amet consectetur adipisicing elit";
+
+// openBtn.addEventListener("click", function () {
+//   alert("Hello World");
+//   mainRight.style.backgroundColor = "yellow";
+// });
+
+//----------
+
+// let onClick = function () {
+//   alert("Hello");
+//   mainRight.style.backgroundColor = "yellow";
+// };
+
+// openBtn.addEventListener("click", onClick);
+
+//-----------
+
+let openMenubtn = function () {
+  mainMore.style.display = "block";
+};
+
+openBtn.addEventListener("click", openMenubtn);
+
+let closeMenubtn = function () {
+  mainMore.style.display = "none";
+};
+
+closeBtn.addEventListener("click", closeMenubtn);
