@@ -176,25 +176,25 @@
 // let max;
 // let min;
 // function minmax(A, B, C, D) {
-//   if ((A > C, B > C, D > C)) {
+//   if (A > B && A > D && C < B && C < D) {
 //     (max = A), (min = C);
-//   } else if (A > B && C > B && D > B) {
+//   } else if (A > C && A > D && B < C && B < D) {
 //     (max = A), (min = B);
-//   } else if (A > D && B > D && C > D) {
+//   } else if (A > C && A > B && D < C && D < B) {
 //     (max = A), (min = D);
-//   } else if (B > C && A > C && D > C) {
+//   } else if (B > A && B > D && C < A && C < D) {
 //     (max = B), (min = C);
-//   } else if (B > D && A > D && C > D) {
+//   } else if (B > A && B > C && D < A && D < C) {
 //     (max = B), (min = D);
-//   } else if (B > A && C > A && D > A) {
+//   } else if (B > D && B > C && A < D && A < C) {
 //     (max = B), (min = A);
-//   } else if (C > B && A > B && D > B) {
+//   } else if (C > D && C > A && B < D && B < A) {
 //     (max = C), (min = B);
-//   } else if (C > A && B > A && D > A) {
+//   } else if (C > D && C > B && A < D && A < B) {
 //     (max = C), (min = A);
-//   } else if (C > D && B > D && A > D) {
+//   } else if (C > B && C > A && D < A && D < B) {
 //     (max = C), (min = D);
-//   } else if (D > B && A > B && C > B) {
+//   } else if (D > A && D > C && B < A && B < C) {
 //     (max = D), (min = B);
 //   } else if (D > A && B > A && C > A) {
 //     (max = D), (min = A);
