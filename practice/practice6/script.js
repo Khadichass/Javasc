@@ -239,3 +239,25 @@
 // ishora(a, b);
 
 // 17-masala
+
+//------------//
+
+// 18-masala
+
+// let r = Number(prompt("Enter the radius :"));
+// let pi = 3.1415;
+
+// function circle(r, pi) {
+//   S3 = pi * r * 3;
+//   console.log(S3);
+// }
+
+// circle(r, pi);
+
+// 19-masala
+
+//------------//
+
+// 20-masala
+
+//------------//
