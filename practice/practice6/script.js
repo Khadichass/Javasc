@@ -166,3 +166,76 @@
 // }
 
 // swap(D, C, A, B);
+
+// 11-masala
+
+// let A = prompt("Enter the a number :");
+// let B = prompt("Enter the b number :");
+// let C = prompt("Enter the c number :");
+// let D = prompt("Enter the d number :");
+// let max;
+// let min;
+// function minmax(A, B, C, D) {
+//   if ((A > C, B > C, D > C)) {
+//     (max = A), (min = C);
+//   } else if (A > B && C > B && D > B) {
+//     (max = A), (min = B);
+//   } else if (A > D && B > D && C > D) {
+//     (max = A), (min = D);
+//   } else if (B > C && A > C && D > C) {
+//     (max = B), (min = C);
+//   } else if (B > D && A > D && C > D) {
+//     (max = B), (min = D);
+//   } else if (B > A && C > A && D > A) {
+//     (max = B), (min = A);
+//   } else if (C > B && A > B && D > B) {
+//     (max = C), (min = B);
+//   } else if (C > A && B > A && D > A) {
+//     (max = C), (min = A);
+//   } else if (C > D && B > D && A > D) {
+//     (max = C), (min = D);
+//   } else if (D > B && A > B && C > B) {
+//     (max = D), (min = B);
+//   } else if (D > A && B > A && C > A) {
+//     (max = D), (min = A);
+//   } else if (D > C && A > C && B > C) {
+//     (max = D), (min = C);
+//   }
+// }
+// minmax(A, B, C, D);
+// console.log(max, min);
+
+// 12-masala
+
+//------------//
+
+// 13-masala
+
+//------------//
+
+// 14-masala
+
+//------------//
+
+// 15-masala
+
+//------------//
+
+// 16-masala
+
+// let a = Number(prompt("Enter the a number :"));
+// let b = Number(prompt("Enter the b number :"));
+
+// function ishora(a, b) {
+//   if (a + b > 0) {
+//     console.log(1);
+//   } else if (a + b < 0) {
+//     console.log(-1);
+//   } else if (a + b == 0) {
+//     console.log(0);
+//   }
+// }
+
+// ishora(a, b);
+
+// 17-masala
