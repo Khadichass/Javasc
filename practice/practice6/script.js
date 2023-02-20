@@ -155,3 +155,14 @@
 // AddLeftDigit(k, r);
 
 // 10-masala
+
+// let A = prompt("Enter the a number :");
+// let B = prompt("Enter the b number :");
+// let C = prompt("Enter the c number :");
+// let D = prompt("Enter the d number :");
+
+// function swap(D, C, A, B) {
+//   console.log(D, C, A, B);
+// }
+
+// swap(D, C, A, B);
