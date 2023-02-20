@@ -89,14 +89,16 @@
 
 // 6-masala
 
-// let a = Number(prompt("enter the a number :"));
-// let b = Number(prompt("enter the b number :"));
-// let c = Number(prompt("enter the c number :"));
+// let a = prompt("enter the a number :");
+// let b = prompt("enter the b number :");
+// let c = prompt("enter the c number :");
 
 // function Sum(a, b, c) {
 //   sum1 = a + b + c;
-//   console.log(sum1);
-//   return sum1;
+//   console.log(Number(a + b + c));
+//   console.log(sum1.length);
+
+//   return;
 // }
 // Sum(a, b, c);
 
@@ -125,7 +127,7 @@
 // let k = prompt("Enter the K number :");
 // let r = prompt("Enter the R number (1<=R<=9)");
 
-// function AddLeftDigit(k, r) {
+// function AddRightDigit(k, r) {
 //   if (1 <= r <= 9) {
 //     console.log(k + r);
 //   } else {
@@ -134,6 +136,20 @@
 //   return k, r;
 // }
 
-// AddLeftDigit(k, r);
+// AddRightDigit(k, r);
 
-// oxirigacha ishlanmadi
+// 9-masala
+
+// let k = prompt("Enter the K number :");
+// let r = prompt("Enter the R number (1<=R<=9)");
+
+// function AddLeftDigit(k, r) {
+//   if (1 <= r <= 9) {
+//     console.log(r + k);
+//   } else {
+//     console.log("Not found");
+//   }
+//   return k, r;
+// }
+
+// AddLeftDigit(k, r);
