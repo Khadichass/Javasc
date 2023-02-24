@@ -37,3 +37,19 @@ let closeMenubtn = function () {
 };
 
 closeBtn.addEventListener("click", closeMenubtn);
+
+let toogle = false;
+let toogleFunc = function () {
+  if (toogle) {
+    toogle = false;
+  } else {
+    toogle = true;
+  }
+};
+
+let toogleBtnFunc = function () {
+  toogleFunc();
+  toogleBtn.style.display = toogle ? "olive" : "red";
+};
+
+toogleBtn.addEventListener("click", toogleBtnFunc);
