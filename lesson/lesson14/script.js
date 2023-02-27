@@ -70,6 +70,6 @@
 // console.log(arrowfunct(10));
 // console.log(arrowfunct(20, 30));
 
-(function () {
-  alert("Hello");
-})();
+// (function () {
+//   alert("Hello");
+// })();
