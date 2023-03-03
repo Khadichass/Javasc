@@ -1,30 +1,8 @@
 "use script";
 
-let mainTitle = document.querySelector(".main__left--title");
-let mainDesc = document.querySelector(".main__left--desc");
 let mainMore = document.querySelector(".main__more");
-let mainRight = document.querySelector(".main__right");
 let openBtn = document.getElementById("main__btn");
 let closeBtn = document.getElementById("close__btn");
-
-// mainTitle.textContent =
-//   "Lorem ipsum dolor, sit amet consectetur adipisicing elit";
-
-// openBtn.addEventListener("click", function () {
-//   alert("Hello World");
-//   mainRight.style.backgroundColor = "yellow";
-// });
-
-//----------
-
-// let onClick = function () {
-//   alert("Hello");
-//   mainRight.style.backgroundColor = "yellow";
-// };
-
-// openBtn.addEventListener("click", onClick);
-
-//-----------
 
 let openMenubtn = function () {
   mainMore.style.display = "block";
@@ -38,18 +16,14 @@ let closeMenubtn = function () {
 
 closeBtn.addEventListener("click", closeMenubtn);
 
-let toogle = false;
-let toogleFunc = function () {
-  if (toogle) {
-    toogle = false;
-  } else {
-    toogle = true;
-  }
-};
+btn__sb;
 
-let toogleBtnFunc = function () {
-  toogleFunc();
-  toogleBtn.style.display = toogle ? "olive" : "red";
-};
+let submit = document.getElementById("btn__sb");
 
-toogleBtn.addEventListener("click", toogleBtnFunc);
+submit.addEventListener("click", function () {
+  console.log("click");
+});
+
+submit.addEventListener("click", (e) => {
+  e.preventDefault();
+});

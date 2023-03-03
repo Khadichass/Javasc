@@ -103,3 +103,13 @@ header nav ul {
   border: none;
   cursor: pointer;
 }
+
+form button {
+  padding: 20px 30px;
+  margin: 20px 100px 100px 100px;
+  background-color: olivedrab;
+  color: white;
+  font-size: 30px;
+  border-radius: 8px;
+  border: none;
+}
