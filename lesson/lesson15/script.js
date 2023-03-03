@@ -97,3 +97,8 @@ const arr2 = [11, 12, 13, 14, 15, 16, 17];
 // }, arr[0]);
 
 // console.log(newReduce);
+
+function newFunct() {
+  alert("hello");
+}
+newFunct();
