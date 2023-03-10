@@ -9,20 +9,21 @@ const generate = () => {
   const min = Number(minEl.value);
   const max = Number(maxEl.value);
 
-  // // if (minEl.value === "" || max.maxEl.value === "") {
-  // //   alert("Iltimos min va max qiymatlar kiriting!");
-  // //   // return;
-  // // } else if (minEl.value === "") {
-  // //   alert("Iltimos min qiymat kiriting!");
-  // //   // return;
-  // // } else if (max.maxEl.value === "") {
-  // //   alert("Iltimos max qiymat kiriting!");
-  // //   // return;
-  // // }
+  if (minEl.value === "" || max.maxEl.value === "") {
+    alert("Iltimos min va max qiymatlar kiriting!");
+    return;
+  }
+  //  else if (minEl.value === "") {
+  //   alert("Iltimos min qiymat kiriting!");
+  //   // return;
+  // } else if (max.maxEl.value === "") {
+  //   alert("Iltimos max qiymat kiriting!");
+  //   // return;
+  // }
 
-  // // if (min > max) {
-  // //   alert("Min maxdan kichik bo'lishi kerak!");
-  // //   // return;
+  // if (min > max) {
+  //   alert("Min maxdan kichik bo'lishi kerak!");
+  //   // return;
   // }
 
   const placeholder = document.querySelector("#placeholder");
