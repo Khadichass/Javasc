@@ -14,6 +14,16 @@ const watchers = document.querySelector(".watchers_paragraph");
 const forks = document.querySelector(".forks_paragraph");
 const getBtn = document.getElementById("getBtn");
 
+// const section1 = document.querySelector(".section1");
+// const repoSection = document.querySelector(".repo_section");
+
+// document.addEventListener("keydown", function (e) {
+//   if (e.key === "Enter") {
+//     console.log(search.value);
+//   }
+//   getData();
+// });
+
 getBtn.addEventListener("click", onClick);
 
 function onClick() {
@@ -30,11 +40,6 @@ const getData = async function () {
     const data = await dataJson.json();
     console.log(dataJson);
     console.log(data);
-    console.log(data.company);
-    console.log(data.bio);
-    console.log(data.company);
-    console.log(data.company);
-    console.log(data.company);
   } catch (error) {
     return error;
   }
