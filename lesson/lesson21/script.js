@@ -9,7 +9,7 @@ loader.style.display = "none";
 
 const getDataCinema = async function () {
   loader.style.display = "block";
-
+  cinemaCard.innerHTML = "";
   try {
     const getdataJson = await fetch(
       `https://www.omdbapi.com/?apikey=1fd18c03&s=${searchInput.value}`
@@ -49,6 +49,6 @@ searchButton.addEventListener("click", function () {
 
 document.addEventListener("keydown", function (event) {
   if (event.code === "Enter") {
-    cinemaAsync(searchInp);
+    getDataCinema(searchInput);
   }
 });
