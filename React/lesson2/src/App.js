@@ -1,15 +1,18 @@
 import Header from "./layouts/Header";
-import "./assets/styles/header.css";
-import Mainsection from "./layouts/Mainsection";
-import "./assets/styles/main.css";
 import Footer from "./layouts/Footer";
+import Mainsection from "./components/Mainsection";
+import useHooks from "./components/useHooks";
+
+import "./assets/styles/main.css";
 import "./assets/styles/footer.css";
+import "./assets/styles/header.css";
+
 function App() {
   return (
     <div>
-      <Header></Header>
-      <Mainsection></Mainsection>
-      <Footer></Footer>
+      <Header />
+      <Mainsection />
+      <Footer />
     </div>
   );
 }
