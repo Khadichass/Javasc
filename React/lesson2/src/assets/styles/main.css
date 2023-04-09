@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  gap: 30px;
+  margin: 30px;
+}
+
+.left {
+  height: 400px;
+  width: 700px;
+  background-color: red;
+  border-radius: 20px;
+}
+.right {
+  height: 400px;
+  width: 700px;
+  background-color: pink;
+  border-radius: 20px;
+}
+
+.container {
+  height: 500px;
+  width: 95%;
+  background-color: lightskyblue;
+  margin: 40px;
+  border-radius: 30px;
+}

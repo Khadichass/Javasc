@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: violet;
+  align-items: center;
+}
+
+.first h1 {
+  margin: 20px 50px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.second ul {
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+}
+
+.second li {
+  list-style: none;
+}
+
+.second a {
+  text-decoration: none;
+  color: white;
+}
+
+.number {
+  margin: 20px;
+  color: white;
+}
