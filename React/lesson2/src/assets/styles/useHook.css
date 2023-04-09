@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.counter {
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.text h1 {
+  color: red;
+  font-family: sans-serif;
+  /* margin: 60px; */
+  padding: 60px;
+}
+
+.btn {
+  margin: 60px;
+}
+
+.btn button {
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+}
+
+.change button {
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
